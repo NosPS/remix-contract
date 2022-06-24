@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MarketERC721.sol": "ERC20"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Context.sol": {
+			"keccak256": "0x2c36c9489879b7c91cdd73bbe8b2584f401aa26f4f252c04f053e824d6ca75c6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ef20575fc12fd27f252acd28a8d0f65893832f29fd9c82f7ec165121af4572f",
+				"dweb:/ipfs/QmZMCoWWDTjhs1CNFMWv4JNWVyyeuzyqteCHhF4heCUYJJ"
+			]
+		},
+		"MarketERC721.sol": {
+			"keccak256": "0xad0252634dc288b9f3f1ce478632bfc70dc180b576f649633ebf48b3cec6b694",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c64c81507623a81c259bfd77c8b52d7565b84f7df093f8fa96b4331845ca82aa",
+				"dweb:/ipfs/QmSYcWNWsG8FprGsinDzue17cqephGkeTCqEjTxPovSg77"
+			]
+		},
+		"Ownable.sol": {
+			"keccak256": "0x4bcb3cd9241cd907f93e5b633d01fa4fa6de1349a446dad56a0e281c20214c34",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f9fd3494e80744c63ddad8151ba7a497ffb9dff5004a0a9cda4b82c3e787ed86",
+				"dweb:/ipfs/QmWsmua38CXbJKRFVYGnETH8mET8qn7wpxMxZDvHnoQ7CG"
+			]
+		}
+	},
+	"version": 1
+}
